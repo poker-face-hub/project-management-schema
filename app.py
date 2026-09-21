@@ -13,7 +13,7 @@ def create_app(config_class=DevelopmentConfig):
     def health_check():
         return jsonify({
             "status": "ok",
-            "messege": "server is running",
+            "message": "server is running",
             "DEBUG": app.config["DEBUG"],
         }),200
 

@@ -908,3 +908,184 @@ werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-managem
 werkzeug:INFO: * Restarting with stat:2026-09-21 13:36:51,525
 werkzeug:WARNING: * Debugger is active!:2026-09-21 13:36:51,896
 werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 13:36:51,899
+werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:2026-09-21 16:18:13,624
+werkzeug:INFO:[33mPress CTRL+C to quit[0m:2026-09-21 16:18:13,625
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:18:13,628
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:18:14,244
+werkzeug:INFO: * Debugger PIN: 369-195-356:2026-09-21 16:18:14,573
+werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:2026-09-21 16:18:22,216
+werkzeug:INFO:[33mPress CTRL+C to quit[0m:2026-09-21 16:18:22,216
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:18:22,218
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:18:22,590
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 16:18:22,593
+werkzeug:INFO: * Detected change in 'c:\\Users\\User\\Documents\\project-management-schema\\tests\\conftest.py', reloading:2026-09-21 16:20:39,171
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\conftest.py', reloading:2026-09-21 16:20:39,194
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:20:39,287
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:20:39,292
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:20:39,849
+werkzeug:INFO: * Debugger PIN: 369-195-356:2026-09-21 16:20:39,854
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:20:39,870
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 16:20:39,873
+werkzeug:INFO: * Detected change in 'c:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 16:23:09,925
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 16:23:09,925
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:23:10,081
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:23:10,091
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:23:10,510
+werkzeug:INFO: * Debugger PIN: 369-195-356:2026-09-21 16:23:10,513
+werkzeug:INFO: * Detected change in 'c:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 16:24:16,751
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 16:24:16,754
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:24:16,844
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:24:16,850
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:24:17,235
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:24:17,236
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 16:24:17,238
+werkzeug:INFO: * Debugger PIN: 369-195-356:2026-09-21 16:24:17,238
+werkzeug:INFO: * Detected change in 'c:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 16:24:47,344
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 16:24:47,344
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:24:47,439
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:24:47,448
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:24:48,048
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 16:24:48,054
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:24:48,128
+werkzeug:INFO: * Debugger PIN: 369-195-356:2026-09-21 16:24:48,132
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 16:26:34,973
+werkzeug:INFO: * Detected change in 'c:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 16:26:34,973
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:26:35,086
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:26:35,091
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:26:35,473
+werkzeug:INFO: * Debugger PIN: 369-195-356:2026-09-21 16:26:35,476
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:26:35,477
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 16:26:35,480
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 16:31:41,826
+werkzeug:INFO: * Detected change in 'c:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 16:31:41,827
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:31:41,922
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:31:41,928
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:31:42,345
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 16:31:42,348
+werkzeug:INFO: * Detected change in 'c:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 16:32:36,259
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 16:32:36,262
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:32:36,350
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:32:36,350
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:32:36,757
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 16:32:36,760
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:32:36,767
+werkzeug:INFO: * Debugger PIN: 369-195-356:2026-09-21 16:32:36,770
+werkzeug:INFO: * Detected change in 'c:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 16:33:47,125
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 16:33:47,129
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:33:47,220
+werkzeug:INFO: * Restarting with stat:2026-09-21 16:33:47,227
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:33:47,637
+werkzeug:INFO: * Debugger PIN: 369-195-356:2026-09-21 16:33:47,640
+werkzeug:WARNING: * Debugger is active!:2026-09-21 16:33:47,645
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 16:33:47,649
+werkzeug:INFO: * Detected change in 'c:\\Users\\User\\Documents\\project-management-schema\\tests\\conftest.py', reloading:2026-09-21 18:28:17,756
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\conftest.py', reloading:2026-09-21 18:28:17,756
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:28:18,042
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:28:18,044
+werkzeug:WARNING: * Debugger is active!:2026-09-21 18:28:18,614
+werkzeug:INFO: * Debugger PIN: 369-195-356:2026-09-21 18:28:18,619
+werkzeug:INFO: * Detected change in 'c:\\Users\\User\\Documents\\project-management-schema\\tests\\conftest.py', reloading:2026-09-21 18:28:40,284
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\conftest.py', reloading:2026-09-21 18:28:40,292
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:28:40,366
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:28:40,383
+werkzeug:WARNING: * Debugger is active!:2026-09-21 18:28:40,841
+werkzeug:WARNING: * Debugger is active!:2026-09-21 18:28:40,843
+werkzeug:INFO: * Debugger PIN: 369-195-356:2026-09-21 18:28:40,844
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 18:28:40,845
+werkzeug:INFO: * Detected change in 'c:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 18:29:55,530
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 18:29:55,532
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:29:55,619
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:29:55,619
+werkzeug:WARNING: * Debugger is active!:2026-09-21 18:29:55,991
+werkzeug:WARNING: * Debugger is active!:2026-09-21 18:29:55,991
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 18:29:55,994
+werkzeug:INFO: * Debugger PIN: 369-195-356:2026-09-21 18:29:55,994
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\routes\\tasks.py', reloading:2026-09-21 18:40:36,432
+werkzeug:INFO: * Detected change in 'c:\\Users\\User\\Documents\\project-management-schema\\routes\\tasks.py', reloading:2026-09-21 18:40:36,433
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:40:36,556
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:40:36,556
+werkzeug:WARNING: * Debugger is active!:2026-09-21 18:40:37,192
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 18:40:37,195
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\routes\\tasks.py', reloading:2026-09-21 18:41:03,003
+werkzeug:INFO: * Detected change in 'c:\\Users\\User\\Documents\\project-management-schema\\routes\\tasks.py', reloading:2026-09-21 18:41:03,003
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:41:03,180
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:41:03,180
+werkzeug:WARNING: * Debugger is active!:2026-09-21 18:41:03,560
+werkzeug:WARNING: * Debugger is active!:2026-09-21 18:41:03,560
+werkzeug:INFO: * Debugger PIN: 369-195-356:2026-09-21 18:41:03,562
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 18:41:03,562
+werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:2026-09-21 18:41:51,697
+werkzeug:INFO:[33mPress CTRL+C to quit[0m:2026-09-21 18:41:51,698
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:41:51,700
+werkzeug:WARNING: * Debugger is active!:2026-09-21 18:41:52,079
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 18:41:52,081
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 18:45:04,712
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:45:04,801
+werkzeug:WARNING: * Debugger is active!:2026-09-21 18:45:05,215
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 18:45:05,217
+database:INFO:Project table was created!:2026-09-21 18:45:34,311
+database:INFO:Milestones table was created!:2026-09-21 18:45:34,312
+database:INFO:User table was created!:2026-09-21 18:45:34,312
+database:INFO:Task table was created!:2026-09-21 18:45:34,312
+database:INFO:Database schema intialized successfully!:2026-09-21 18:45:34,313
+database:INFO:Project table was created!:2026-09-21 18:45:34,332
+database:INFO:Milestones table was created!:2026-09-21 18:45:34,333
+database:INFO:User table was created!:2026-09-21 18:45:34,333
+database:INFO:Task table was created!:2026-09-21 18:45:34,333
+database:INFO:Database schema intialized successfully!:2026-09-21 18:45:34,333
+database:INFO:Project table was created!:2026-09-21 18:45:34,341
+database:INFO:Milestones table was created!:2026-09-21 18:45:34,341
+database:INFO:User table was created!:2026-09-21 18:45:34,341
+database:INFO:Task table was created!:2026-09-21 18:45:34,342
+database:INFO:Database schema intialized successfully!:2026-09-21 18:45:34,342
+database:INFO:Project table was created!:2026-09-21 18:45:34,350
+database:INFO:Milestones table was created!:2026-09-21 18:45:34,350
+database:INFO:User table was created!:2026-09-21 18:45:34,350
+database:INFO:Task table was created!:2026-09-21 18:45:34,351
+database:INFO:Database schema intialized successfully!:2026-09-21 18:45:34,351
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\routes\\tasks.py', reloading:2026-09-21 18:47:36,189
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:47:36,268
+werkzeug:WARNING: * Debugger is active!:2026-09-21 18:47:36,650
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 18:47:36,653
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 18:48:34,437
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:48:34,504
+werkzeug:WARNING: * Debugger is active!:2026-09-21 18:48:34,897
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 18:48:34,900
+werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:2026-09-21 18:48:55,231
+werkzeug:INFO:[33mPress CTRL+C to quit[0m:2026-09-21 18:48:55,231
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:48:55,233
+werkzeug:WARNING: * Debugger is active!:2026-09-21 18:48:55,594
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 18:48:55,597
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 18:49:03,875
+werkzeug:INFO: * Restarting with stat:2026-09-21 18:49:04,025
+werkzeug:WARNING: * Debugger is active!:2026-09-21 18:49:04,479
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 18:49:04,484
+database:INFO:Project table was created!:2026-09-21 18:49:07,160
+database:INFO:Milestones table was created!:2026-09-21 18:49:07,160
+database:INFO:User table was created!:2026-09-21 18:49:07,161
+database:INFO:Task table was created!:2026-09-21 18:49:07,161
+database:INFO:Database schema intialized successfully!:2026-09-21 18:49:07,161
+database:INFO:Project table was created!:2026-09-21 18:49:07,177
+database:INFO:Milestones table was created!:2026-09-21 18:49:07,177
+database:INFO:User table was created!:2026-09-21 18:49:07,177
+database:INFO:Task table was created!:2026-09-21 18:49:07,177
+database:INFO:Database schema intialized successfully!:2026-09-21 18:49:07,177
+database:INFO:Project table was created!:2026-09-21 18:49:07,186
+database:INFO:Milestones table was created!:2026-09-21 18:49:07,187
+database:INFO:User table was created!:2026-09-21 18:49:07,187
+database:INFO:Task table was created!:2026-09-21 18:49:07,187
+database:INFO:Database schema intialized successfully!:2026-09-21 18:49:07,187
+database:INFO:Project table was created!:2026-09-21 18:49:07,195
+database:INFO:Milestones table was created!:2026-09-21 18:49:07,195
+database:INFO:User table was created!:2026-09-21 18:49:07,195
+database:INFO:Task table was created!:2026-09-21 18:49:07,195
+database:INFO:Database schema intialized successfully!:2026-09-21 18:49:07,196
+database:INFO:Project table was created!:2026-09-21 18:49:07,208
+database:INFO:Milestones table was created!:2026-09-21 18:49:07,209
+database:INFO:User table was created!:2026-09-21 18:49:07,209
+database:INFO:Task table was created!:2026-09-21 18:49:07,209
+database:INFO:Database schema intialized successfully!:2026-09-21 18:49:07,209

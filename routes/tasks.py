@@ -40,8 +40,11 @@ def add_task():
     project_id=data.get("project_id",None)
 
     if  name is None or user_id is None or milestone_id is None or project_id is None:
-        return jsonify({"error": "missing information..required fields: name,user_id,milestone_id,project_id "}),400
+        return jsonify({"error": "missing information..required fields: name,user_id,milestone_id,project_id "}),404
     try:
+        user_id=int(user_id)
+        milestone_id=int(milestone_id)
+        project_id=int(project_id)
         with Datamanager() as db:
             task_id=db.add_task(name,user_id,milestone_id,project_id)
             return jsonify({"message": "Task created", "task_id": task_id}),201
