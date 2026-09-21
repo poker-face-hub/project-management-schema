@@ -1,0 +1,9 @@
+
+class DatabaseError(Exception):
+    ...
+
+class RecordNotFoundError(DatabaseError):
+    ...
+
+class ValidationError(DatabaseError):
+    ...
