@@ -10,4 +10,4 @@ class DevelopmentConfig(Config):
 
 class TestingConfig(Config):
     TESTING=True
-    DATABASE_URI=":memory:"
+    DATABASE_URI="file:testdb?mode=memory&cache=shared"

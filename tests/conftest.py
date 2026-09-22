@@ -6,14 +6,14 @@ import sqlite3
 import pytest
 from app import create_app
 from config import TestingConfig
-from database import init_db
+from database import get_connection,init_db
 
 @pytest.fixture
 def client():
     app=create_app(TestingConfig)
-    database_uri=app.config["DATABASE_URI"]
-    conn=sqlite3.connect(database_uri)
-    init_db(conn)
+    with app.app_context():
+        conn=get_connection()
+        init_db(conn)
 
     with app.test_client() as client:
         yield client

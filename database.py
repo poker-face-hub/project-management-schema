@@ -1,5 +1,6 @@
 import logging
 import sqlite3
+from flask import current_app
 
 logging.basicConfig(handlers=[logging.FileHandler("project-management.log"),logging.StreamHandler()],
                     level=logging.DEBUG,
@@ -8,7 +9,16 @@ logging.basicConfig(handlers=[logging.FileHandler("project-management.log"),logg
 logger=logging.getLogger(__name__)
 
 
-def get_connection():
+def get_connection(database_uri=None):
+    if database_uri:
+        return sqlite3.connect(database_uri, uri=True)
+    try:
+        if current_app and "DATABASE_URI" in current_app.config:
+            return sqlite3.connect(current_app.config["DATABASE_URI"], uri=True)
+    except RuntimeError:
+        pass
+
+    
     conn=sqlite3.connect("project-management.db")
     conn.execute("pragma foreign_keys = on")
     conn.commit()

@@ -1089,3 +1089,122 @@ database:INFO:Milestones table was created!:2026-09-21 18:49:07,209
 database:INFO:User table was created!:2026-09-21 18:49:07,209
 database:INFO:Task table was created!:2026-09-21 18:49:07,209
 database:INFO:Database schema intialized successfully!:2026-09-21 18:49:07,209
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\database.py', reloading:2026-09-21 20:43:36,899
+werkzeug:INFO: * Restarting with stat:2026-09-21 20:43:37,144
+werkzeug:WARNING: * Debugger is active!:2026-09-21 20:43:37,666
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 20:43:37,669
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\conftest.py', reloading:2026-09-21 20:46:05,262
+werkzeug:INFO: * Restarting with stat:2026-09-21 20:46:05,327
+werkzeug:WARNING: * Debugger is active!:2026-09-21 20:46:05,723
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 20:46:05,726
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\database.py', reloading:2026-09-21 20:46:23,376
+werkzeug:INFO: * Restarting with stat:2026-09-21 20:46:23,524
+werkzeug:WARNING: * Debugger is active!:2026-09-21 20:46:23,892
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 20:46:23,895
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\test_tasks.py', reloading:2026-09-21 20:46:36,351
+werkzeug:INFO: * Restarting with stat:2026-09-21 20:46:36,434
+werkzeug:WARNING: * Debugger is active!:2026-09-21 20:46:36,859
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 20:46:36,862
+database:INFO:Project table was created!:2026-09-21 20:46:49,756
+database:INFO:Milestones table was created!:2026-09-21 20:46:49,757
+database:INFO:User table was created!:2026-09-21 20:46:49,757
+database:INFO:Task table was created!:2026-09-21 20:46:49,758
+database:INFO:Database schema intialized successfully!:2026-09-21 20:46:49,758
+database:INFO:Project table was created!:2026-09-21 20:46:49,774
+database:INFO:Milestones table was created!:2026-09-21 20:46:49,774
+database:INFO:User table was created!:2026-09-21 20:46:49,774
+database:INFO:Task table was created!:2026-09-21 20:46:49,775
+database:INFO:Database schema intialized successfully!:2026-09-21 20:46:49,775
+database:INFO:Project table was created!:2026-09-21 20:46:50,011
+database:INFO:Milestones table was created!:2026-09-21 20:46:50,011
+database:INFO:User table was created!:2026-09-21 20:46:50,011
+database:INFO:Task table was created!:2026-09-21 20:46:50,011
+database:INFO:Database schema intialized successfully!:2026-09-21 20:46:50,011
+database:INFO:Project table was created!:2026-09-21 20:46:50,022
+database:INFO:Milestones table was created!:2026-09-21 20:46:50,022
+database:INFO:User table was created!:2026-09-21 20:46:50,023
+database:INFO:Task table was created!:2026-09-21 20:46:50,023
+database:INFO:Database schema intialized successfully!:2026-09-21 20:46:50,024
+database:INFO:Project table was created!:2026-09-21 20:46:50,033
+database:INFO:Milestones table was created!:2026-09-21 20:46:50,033
+database:INFO:User table was created!:2026-09-21 20:46:50,033
+database:INFO:Task table was created!:2026-09-21 20:46:50,033
+database:INFO:Database schema intialized successfully!:2026-09-21 20:46:50,033
+werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:2026-09-21 20:47:33,387
+werkzeug:INFO:[33mPress CTRL+C to quit[0m:2026-09-21 20:47:33,387
+werkzeug:INFO: * Restarting with stat:2026-09-21 20:47:33,389
+werkzeug:WARNING: * Debugger is active!:2026-09-21 20:47:33,784
+werkzeug:INFO: * Debugger PIN: 369-195-356:2026-09-21 20:47:33,787
+werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:2026-09-21 20:47:55,664
+werkzeug:INFO:[33mPress CTRL+C to quit[0m:2026-09-21 20:47:55,664
+werkzeug:INFO: * Restarting with stat:2026-09-21 20:47:55,667
+werkzeug:WARNING: * Debugger is active!:2026-09-21 20:47:56,046
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 20:47:56,049
+database:INFO:Project table was created!:2026-09-21 20:48:34,911
+database:INFO:Milestones table was created!:2026-09-21 20:48:34,913
+database:INFO:User table was created!:2026-09-21 20:48:34,914
+database:INFO:Task table was created!:2026-09-21 20:48:34,914
+database:INFO:Database schema intialized successfully!:2026-09-21 20:48:34,914
+database:INFO:Project table was created!:2026-09-21 20:48:34,931
+database:INFO:Milestones table was created!:2026-09-21 20:48:34,932
+database:INFO:User table was created!:2026-09-21 20:48:34,932
+database:INFO:Task table was created!:2026-09-21 20:48:34,932
+database:INFO:Database schema intialized successfully!:2026-09-21 20:48:34,932
+database:INFO:Project table was created!:2026-09-21 20:48:35,139
+database:INFO:Milestones table was created!:2026-09-21 20:48:35,140
+database:INFO:User table was created!:2026-09-21 20:48:35,140
+database:INFO:Task table was created!:2026-09-21 20:48:35,140
+database:INFO:Database schema intialized successfully!:2026-09-21 20:48:35,140
+database:INFO:Project table was created!:2026-09-21 20:48:35,150
+database:INFO:Milestones table was created!:2026-09-21 20:48:35,151
+database:INFO:User table was created!:2026-09-21 20:48:35,151
+database:INFO:Task table was created!:2026-09-21 20:48:35,151
+database:INFO:Database schema intialized successfully!:2026-09-21 20:48:35,152
+database:INFO:Project table was created!:2026-09-21 20:48:35,163
+database:INFO:Milestones table was created!:2026-09-21 20:48:35,163
+database:INFO:User table was created!:2026-09-21 20:48:35,163
+database:INFO:Task table was created!:2026-09-21 20:48:35,164
+database:INFO:Database schema intialized successfully!:2026-09-21 20:48:35,164
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\database.py', reloading:2026-09-21 21:38:32,306
+werkzeug:INFO: * Restarting with stat:2026-09-21 21:38:32,472
+werkzeug:WARNING: * Debugger is active!:2026-09-21 21:38:33,073
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 21:38:33,076
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\config.py', reloading:2026-09-21 21:38:35,143
+werkzeug:INFO: * Restarting with stat:2026-09-21 21:38:35,215
+werkzeug:WARNING: * Debugger is active!:2026-09-21 21:38:35,594
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 21:38:35,597
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\tests\\conftest.py', reloading:2026-09-21 21:38:41,781
+werkzeug:INFO: * Restarting with stat:2026-09-21 21:38:41,885
+werkzeug:WARNING: * Debugger is active!:2026-09-21 21:38:42,265
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 21:38:42,268
+werkzeug:INFO: * Detected change in 'C:\\Users\\User\\Documents\\project-management-schema\\database.py', reloading:2026-09-21 21:38:49,547
+werkzeug:INFO: * Restarting with stat:2026-09-21 21:38:49,634
+werkzeug:WARNING: * Debugger is active!:2026-09-21 21:38:50,012
+werkzeug:INFO: * Debugger PIN: 740-548-572:2026-09-21 21:38:50,015
+database:INFO:Project table was created!:2026-09-21 21:38:56,578
+database:INFO:Milestones table was created!:2026-09-21 21:38:56,579
+database:INFO:User table was created!:2026-09-21 21:38:56,580
+database:INFO:Task table was created!:2026-09-21 21:38:56,580
+database:INFO:Database schema intialized successfully!:2026-09-21 21:38:56,580
+database:INFO:Project table was created!:2026-09-21 21:38:56,596
+database:INFO:Milestones table was created!:2026-09-21 21:38:56,596
+database:INFO:User table was created!:2026-09-21 21:38:56,597
+database:INFO:Task table was created!:2026-09-21 21:38:56,597
+database:INFO:Database schema intialized successfully!:2026-09-21 21:38:56,597
+database:INFO:Project table was created!:2026-09-21 21:38:56,603
+database:INFO:Milestones table was created!:2026-09-21 21:38:56,603
+database:INFO:User table was created!:2026-09-21 21:38:56,603
+database:INFO:Task table was created!:2026-09-21 21:38:56,603
+database:INFO:Database schema intialized successfully!:2026-09-21 21:38:56,604
+database:INFO:Project table was created!:2026-09-21 21:38:56,609
+database:INFO:Milestones table was created!:2026-09-21 21:38:56,610
+database:INFO:User table was created!:2026-09-21 21:38:56,610
+database:INFO:Task table was created!:2026-09-21 21:38:56,611
+database:INFO:Database schema intialized successfully!:2026-09-21 21:38:56,611
+database:INFO:Project table was created!:2026-09-21 21:38:56,619
+database:INFO:Milestones table was created!:2026-09-21 21:38:56,620
+database:INFO:User table was created!:2026-09-21 21:38:56,620
+database:INFO:Task table was created!:2026-09-21 21:38:56,620
+database:INFO:Database schema intialized successfully!:2026-09-21 21:38:56,620
