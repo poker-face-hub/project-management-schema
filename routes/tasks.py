@@ -66,3 +66,38 @@ def delete_task_by_id(task_id):
                 return jsonify({"message": f"Task {task_id} deleted successfully"}),200
     except Exception as e:
             return jsonify({"error": f"could Not delete task {str(e)}"}),400
+
+
+
+@task_bp.route("/<int:task_id>",methods=["PUT"])
+def update_task_by_id(task_id):
+
+    data=request.get_json(silent=True)
+    if not data:
+        return jsonify({"error": "Invalid or missing JSON payload" }),400
+    
+    try:
+        with Datamanager() as db:
+            if not db.task_exists(task_id):
+                return jsonify({"error": f"Task {task_id} does not exists"}),404 
+
+
+            new_status=data.get("status",None)
+            name=data.get("name",None)
+            user_id=data.get("user_id",None)
+            milestone_id=data.get("milestone_id",None)
+            project_id=data.get("project_id",None)
+
+            if user_id is not None:
+                user_id=int(user_id)
+            if milestone_id is not None:
+                milestone_id=int(milestone_id)
+            if project_id is not None:
+                project_id=int(project_id)
+            if db.update_task(task_id=task_id,new_status=new_status,name=name,user_id=user_id,milestone_id=milestone_id,project_id=project_id):
+                return jsonify({"message": f"Task {task_id} updated successfully"}),200
+            else:
+                return jsonify({"error": f"Failed to update task. Verify that status,name, user_id, project_id, and milestone_id provided."}),400
+        
+    except Exception as e:
+        return jsonify({"error": f"Failed to update task. Verify that status,user_id, project_id, and milestone_id valid.  {str(e)}"}),400
