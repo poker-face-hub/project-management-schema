@@ -7,3 +7,6 @@ class RecordNotFoundError(DatabaseError):
 
 class ValidationError(DatabaseError):
     ...
+
+class UnauthorizedError(DatabaseError):
+    ...
