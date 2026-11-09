@@ -33,7 +33,7 @@ def test_register_duplicate_username(client):
         }
      
     respose=client.post("auth/register",json=payloads)
-    assert respose.status_code== 401
+    assert respose.status_code== 400
     assert "error" in respose.get_json()
 
 

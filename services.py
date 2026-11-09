@@ -93,7 +93,14 @@ class MilestoneService:
 class TaskService:
     @staticmethod
     def search_tasks(keywords: str|None=None,user_id: int|None=None,milestone_id: int|None=None,project_id: int|None=None,status: str|None=None)-> list[dict]:
-
+        try:   
+            if milestone_id is not None:
+                milestone_id=int(milestone_id)
+            if project_id is not None:
+                project_id=int(project_id)
+        except ValueError:
+             raise ValidationError
+    
         with Datamanager() as db:
             tasks=db.search_tasks(keywords=keywords,user_id=user_id,milestone_id=milestone_id,project_id=project_id)
             return tasks

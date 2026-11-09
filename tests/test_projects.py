@@ -42,7 +42,7 @@ def test_add_project_missing_name(client):
         "finish_date": "2027-05-01"
     }
     response = client.post("/project", json=payload)
-    assert response.status_code == 404
+    assert response.status_code == 400
     data = response.get_json()
     assert "error" in data
 

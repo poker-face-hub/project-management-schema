@@ -102,7 +102,7 @@ def test_get_user_summary_invalid_project_id(client):
 
 
     response=client.get("/report?project_id=abc")
-    assert response.status_code==401
+    assert response.status_code==400
     
     
     

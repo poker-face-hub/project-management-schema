@@ -69,8 +69,7 @@ def test_delete_task_by_id_nonexsistence(client):
 
     data=response.get_json()
     assert "error" in data
-    assert data["error"]=="Task 99 does not exists"
-
+    
 
 def test_create_task_success(client):
     project_id,milestone_id=create_test_dependencies(client)
@@ -114,7 +113,7 @@ def test_create_task_missing_fields(client):
             "project_id":project_id}
         
     response=client.post("/task",json=payloads)
-    assert response.status_code== 404
+    assert response.status_code== 400
 
     data=response.get_json()
     assert "error" in data

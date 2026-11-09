@@ -97,6 +97,19 @@ def init_db(conn):
         conn.commit()
         logger.info("Successfully applied migration version 2: Project priority column.")
 
+
+    if current_version<3:
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_project_user ON Project(user_id)")
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_milestone_project ON Milestone(project_id)")
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_task_user ON Task(user_id)")
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_task_project ON Task(project_id)")
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_task_milestone ON Task(milestone_id)")
+
+        cursor.execute("INSERT INTO schema_migrations(version) VALUES(3)")
+        conn.commit()
+        logger.info("Successfully applied migration version 3: Database performance indexes.")
+
+
 if __name__=="__main__":
     conn=get_connection()
     init_db(conn)

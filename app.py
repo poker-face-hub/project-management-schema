@@ -1,7 +1,7 @@
 import os
 from flask import Flask,jsonify
 from config import DevelopmentConfig
-#from exception import RecordNotFoundError,ValidationError,UnauthorizedError
+from exception import RecordNotFoundError,ValidationError,UnauthorizedError
 from routes.tasks import task_bp
 from routes.projects import project_bp
 from routes.auth import auth_bp
@@ -33,7 +33,27 @@ def create_app(config_class=DevelopmentConfig):
         }),200
     
 
+    @app.errorhandler(ValidationError)
+    def handle_validation_error(e):
+        error_message=str(e) if str(e) else "Invalid input data or missing required fields . "
+        return jsonify({"error": error_message}),400
+
+
+    @app.errorhandler(RecordNotFoundError)
+    def handler_not_found_error(e):
+        error_message = str(e) if str(e) else "Requested record does not exist."
+        return jsonify({"error": error_message}), 404
     
+
+
+    @app.errorhandler(UnauthorizedError)
+    def handler_Unauthorized_error(e):
+        return jsonify({"error": f"Unauthorized Request : {str(e)}"}), 401
+    
+    @app.errorhandler(Exception)
+    def handle_unexpected_error(e):
+        return jsonify({"error": f"An unexpected error occurred: {str(e)}"}), 500
+
     return app
 
 
