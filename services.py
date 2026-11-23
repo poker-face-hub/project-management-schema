@@ -102,7 +102,7 @@ class TaskService:
              raise ValidationError
     
         with Datamanager() as db:
-            tasks=db.search_tasks(keywords=keywords,user_id=user_id,milestone_id=milestone_id,project_id=project_id)
+            tasks=db.search_tasks(keywords=keywords,user_id=user_id,milestone_id=milestone_id,project_id=project_id,status=status)
             return tasks
         
     @staticmethod

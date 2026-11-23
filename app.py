@@ -1,6 +1,7 @@
 import os
 from flask import Flask,jsonify
 from config import DevelopmentConfig
+from models import db, UserModel, ProjectModel, MilestoneModel, TaskModel
 from exception import RecordNotFoundError,ValidationError,UnauthorizedError
 from routes.tasks import task_bp
 from routes.projects import project_bp
@@ -16,6 +17,12 @@ def create_app(config_class=DevelopmentConfig):
     app=Flask(__name__)
     app.secret_key=os.environ.get("FLASK-SECRET-KEY","dev-secret-key-fallback-for-testing")
     app.config.from_object(config_class)
+
+    db.init_app(app)
+    with app.app_context():
+        db.create_all()
+
+        
     app.register_blueprint(task_bp)
     app.register_blueprint(project_bp)
     app.register_blueprint(auth_bp)
